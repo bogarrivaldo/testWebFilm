@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS-RESET ---------------------------------------------*/
+
+@font-face {
+    font-family: valfont1;
+    src: url(Font_Folder/Ghost\ Stone.ttf);
+}
+
+@font-face {
+    font-family: valfont2;
+    src: url(Font_Folder/Hello\ Monster.ttf);
+}
+
+body {
+    background-color: #B5C3BB;
+    margin: 0%;
+}
+
+.headerText {
+    background-color: #3F4541;
+    height: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.headerText h1 {
+    font-family: valfont2;
+    margin: 0%;
+
+    color: white;
+    text-align: left;
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-left: 90px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.gambar1 {
+    float: right;
+
+}
+
+.gambar1:hover {
+    box-shadow: 2px 2px 8px green;
+}
+
+
+
+.containerMovie {
+    width: 1700px;
+    height: 900px;
+    margin-top: 100px;
+    background-color: #3F4541;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 9px black;
+
+
+
+}
+
+.default {
+    height: 250px;
+    width: 180px;
+    margin: 25px 16px;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 15px;
+
+
+}
+
+
+
+.containerJudul {
+    width: 1700px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 480px;
+}
+
+.judulBar1 {
+    float: right;
+    width: 180px;
+    /* background-color: red; */
+    margin: 0% 16px;
+}
+
+.judulBar1 {
+    text-align: center;
+
+}
+
+.judulBar1 p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 6px black;
+}
+
+.boxChating {
+
+    background-color: #B5C3BB;
+    box-shadow: 2px 2px 8px black;
+
+    width: 140px;
+    height: 100px;
+    float: right;
+
+}
+
+.menutitiktiga {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.profilegambar {
+    width: 65px;
+    height: auto;
+    float: right;
+    margin-right: 30px;
+    margin-top: 16px;
+}
+
+.menutitiktiga:hover {
+    scale: 50px;
+}
